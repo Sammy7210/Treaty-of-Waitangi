@@ -1,0 +1,46 @@
+h1{
+  text-align: center;  
+}
+#wrapper{
+    display:grid;
+    grid-template-areas: "header header header"
+                         "nav main main"
+                         "nav sidebar sidebar"
+                        "footer footer footer";
+}
+
+div{
+    border:1px solid black;
+}
+#header{
+    grid-area: header;
+    color: brown;
+    border-color: lawngreen;
+    background-color: red;
+}
+#nav{
+    grid-area: nav;
+    color: darkviolet;
+    border-color: deepskyblue;
+       background-color: violet;
+}
+#main{
+    grid-area: main;
+    color: green;
+    border-color: mediumpurple;
+       background-color: lime;
+}
+#sidebar{
+    grid-area: sidebar;
+    color: lightblue;
+    border-color: purple;
+       background-color: aliceblue;
+}
+#footer{
+    grid-area: footer;
+    color: pink;
+    border-color: red;
+       background-color: magenta;
+}
+
+
